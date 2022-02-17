@@ -1,0 +1,46 @@
+<!doctype html>
+
+<html>
+
+<head>
+
+<script>
+
+function add(){​​​​​​​
+
+var a,b,c,d;
+
+a=parseFloat(document.getElementById("first").value);
+
+b=parseFloat(document.getElementById("second").value);
+
+c=parseFloat(document.getElementById("third").value);
+
+d= a + b + c;
+
+document.getElementById("answer").value= d;
+
+}​​​​​​​
+
+</script>
+
+</head>
+
+<body>
+
+<h1> Add two numbers </h1>
+
+Enter the First number : <input id="first"><br>
+
+Enter the Second number: <input id="second"><br>
+
+Enter the Third number: <input id="third"><br>
+
+<input type="button" onclick="add()" value="Add">
+
+<input id="answer">
+
+</body>
+
+</html>
+
